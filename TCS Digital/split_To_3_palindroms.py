@@ -1,3 +1,18 @@
+"""
+In this 3 Palindrome question, Given an input string word, split the string into exactly 3 palindromic substrings. 
+Working from left to right, choose the smallest split for the first substring that still allows the remaining word to be split into 2 palindromes.
+
+Similarly, choose the smallest second palindromic substring that leaves a third palindromic substring.
+
+If there is no way to split the word into exactly three palindromic substrings, print “Impossible” (without quotes). 
+Every character of the string needs to be consumed.
+
+Cases not allowed –
+
+After finding 3 palindromes using above instructions, if any character of the original string remains unconsumed.
+No character may be shared in forming 3 palindromes.
+
+"""
 import sys
 
 def isPalindrome(s):

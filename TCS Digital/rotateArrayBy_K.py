@@ -1,3 +1,10 @@
+"""
+Given an array Arr[ ] of N integers and a positive integer K. 
+The task is to cyclically rotate the array clockwise by K.
+
+"""
+
+
 import sys
 
 def rotate(size,arr,k):

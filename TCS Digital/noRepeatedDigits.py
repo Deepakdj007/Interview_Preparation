@@ -1,3 +1,9 @@
+"""
+Given two non-negative integers n1 and n2, where n1<n2. 
+The task is to find the total number of integers in the range [n1, n2](both inclusive) which have no repeated digits.
+
+"""
+
 import sys
 
 def noRepeatedDigits(n1,n2):
